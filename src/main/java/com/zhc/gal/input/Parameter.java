@@ -2,6 +2,7 @@ package com.zhc.gal.input;
 
 import com.zhc.gal.enums.ParameterTypeEnum;
 import com.zhc.gal.utils.Range;
+import lombok.Data;
 
 import java.lang.reflect.Type;
 
@@ -10,6 +11,7 @@ import java.lang.reflect.Type;
  * @description
  * @date 2024/5/13 15:10
  **/
+@Data
 public class Parameter {
     // 递归
     private Type type;
